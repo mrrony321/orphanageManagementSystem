@@ -1,0 +1,43 @@
+.view {
+    background: url("http://localhost/Orp/image/b.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+
+.w-auto {
+    width: auto;
+}
+
+.table-fixed {
+    table-layout: fixed;
+    overflow: hidden;
+}
+
+
+
+
+body{
+    font-family: sans-serif;
+}
+h1{
+    text-align:center;
+    color:forestgreen;
+    margin: 30px 50px;
+}
+.gallery{
+    margin:10px 50px;
+}
+.gallery img{
+    width: 230px;
+    padding:5px;
+    filter: grayscale(100%);
+    transition:1s;
+}
+.gallery img:hover{
+    filter:grayscale(0);
+    transform: scale(1.10,1.10);
+}
+
+.b {
+    color: white;
+}
